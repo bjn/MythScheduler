@@ -21,7 +21,7 @@ namespace Core
         {
             get
             {
-                return string.Format("http://kroppkakor.dyndns.org/mythweb/tv/detail/{0}/{1}", ChanId, Id);
+                return string.Format("http://192.168.1.125/mythweb/tv/detail/{0}/{1}", ChanId, Id);
             }
         }
 

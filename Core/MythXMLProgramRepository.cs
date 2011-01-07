@@ -10,7 +10,7 @@ namespace Core
     {
         public IEnumerable<Channel> GetChannels(DateTime startDate, DateTime endDate)
         {
-            string httpQuery = string.Format("http://{0}:{1}/Myth/GetProgramGuide?Pin={2}&StartTime={3}&EndTime={4}&NumOfChannels=1", "kroppkakor.dyndns.org", "6540", "0000", startDate.ToString("yyyy-MM-ddTHH:mm"), endDate.ToString("yyyy-MM-ddTHH:mm"));
+            string httpQuery = string.Format("http://{0}:{1}/Myth/GetProgramGuide?Pin={2}&StartTime={3}&EndTime={4}&NumOfChannels=1", "192.168.1.125", "6545", "0000", startDate.ToString("yyyy-MM-ddTHH:mm"), endDate.ToString("yyyy-MM-ddTHH:mm"));
             XDocument doc = XDocument.Load(httpQuery);
          
             return from channel in doc.Descendants("Channel")

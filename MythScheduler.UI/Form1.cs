@@ -16,7 +16,6 @@ namespace MythScheduler.UI
         public Form1()
         {
             InitializeComponent();
-            programBindingSource.DataSource = new ProgramRepository().FindMovies(DateTime.Now, DateTime.Now.AddDays(20));
             this.dataGridView1.Click += new EventHandler(dataGridView1_Click);
             dataGridView1.CellMouseClick += new DataGridViewCellMouseEventHandler(dataGridView1_CellMouseClick);
         }

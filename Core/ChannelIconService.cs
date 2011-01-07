@@ -21,7 +21,7 @@ namespace Core
             if (_images.ContainsKey(xmltv))
                 return _images[xmltv];
 
-            string url = string.Format("http://kroppkakor.dyndns.org/mythweb/data/tv_icons/{0}.png", xmltv);
+            string url = string.Format("http://192.168.1.125/mythweb/data/tv_icons/{0}.png", xmltv);
 
             Stream stream = new MemoryStream(new WebClient().DownloadData(url));
             _images.Add(xmltv, new PngBitmapDecoder(stream, BitmapCreateOptions.PreservePixelFormat,
@@ -34,7 +34,7 @@ namespace Core
             if (_images.ContainsKey(channelId.Id))
                 return _images[channelId.Id];
 
-            string url = string.Format("http://kroppkakor.dyndns.org:6540/Myth/GetChannelIcon?ChanId={0}", channelId.Id);
+            string url = string.Format("http://192.168.1.125:6545/Myth/GetChannelIcon?ChanId={0}", channelId.Id);
 
             Stream stream = new MemoryStream(new WebClient().DownloadData(url));
             _images.Add(channelId.Id, new PngBitmapDecoder(stream, BitmapCreateOptions.PreservePixelFormat,
