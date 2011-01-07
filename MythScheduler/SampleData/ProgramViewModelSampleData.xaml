@@ -1,0 +1,131 @@
+﻿<MythScheduler:ProgramViewModel xmlns:MythScheduler="clr-namespace:MythScheduler" xmlns:Core="clr-namespace:Core;assembly=Core">
+	<MythScheduler:ProgramViewModel.Channels>
+		<Core:Channel Name="Curabitur class phasellus cras curae">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25">
+				<Core:Day.Programs>
+					<Core:Program>
+						<Core:Program.StartTime>01/04/2011 21:35:25</Core:Program.StartTime>
+						<Core:Program.Title>Rapport</Core:Program.Title>
+					</Core:Program>
+				</Core:Day.Programs>
+				</Core:Day>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Aliquam nam"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Aenean donec etiam">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Integer consequat"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Maecenas convallis praesent">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Fusce duis"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Vivamus sed mauris nullam aliquam">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Nunc quisque dignissim lorem elementum"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Auctor bibendum morbi nulla">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Accumsan aptent"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Vestibulum dictumst dis eleifend">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Amet congue aliquet"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Parturient ante">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Proin augue adipiscing facilisis blandit"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Dolor dictum arcu est fermentum">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Cursus commodo"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Fames conubia cubilia hac felis">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Vestibulum facilisi lectus fringilla vestibulum"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+		<Core:Channel Name="Parturient diam faucibus leo">
+			<Core:Channel.Days>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+				<Core:Day Date="01/04/2011 21:35:25"/>
+			</Core:Channel.Days>
+			<Core:Channel.Id>
+				<Core:ChannelId Id="Habitasse adipiscing"/>
+			</Core:Channel.Id>
+		</Core:Channel>
+	</MythScheduler:ProgramViewModel.Channels>
+</MythScheduler:ProgramViewModel>
